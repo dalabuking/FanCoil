@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command FanCoil</Text>
+    <Description>Some description for FanCoil</Description>
+    <Assembly>FanCoil.dll</Assembly>
+    <FullClassName>FanCoil.Command</FullClassName>
+    <ClientId>228cfcdc-9026-473d-b054-defcfecebb29</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application FanCoil</Name>
+    <Assembly>FanCoil.dll</Assembly>
+    <FullClassName>FanCoil.App</FullClassName>
+    <ClientId>87803523-c2ea-4ef9-9217-635c8b107fd5</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
