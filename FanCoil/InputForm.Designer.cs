@@ -1,7 +1,7 @@
 ﻿
 namespace FanCoil
 {
-    partial class Form1
+    partial class InputForm
     {
         /// <summary>
         /// Required designer variable.

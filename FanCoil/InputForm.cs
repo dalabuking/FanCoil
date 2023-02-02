@@ -13,7 +13,7 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 namespace FanCoil
 {
-    public partial class Form1 : System.Windows.Forms.Form
+    public partial class InputForm : System.Windows.Forms.Form
     {
         private UIApplication uiapp;
         private UIDocument uidoc;
@@ -22,7 +22,7 @@ namespace FanCoil
         public string fileName = "";
         public bool isCancle = false;
 
-        public Form1(ExternalCommandData commandData)
+        public InputForm(ExternalCommandData commandData)
         {
             InitializeComponent();
 

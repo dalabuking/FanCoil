@@ -31,7 +31,7 @@ namespace FanCoil
             List<Object> oVentilo = new List<Object>();
 
 
-            Form1 form1 = new Form1(commandData);
+            InputForm form1 = new InputForm(commandData);
             form1.ShowDialog();
             
 
@@ -209,11 +209,11 @@ namespace FanCoil
 
             foreach (Ventilokonvektor ventilo in choosenVentilos)
             {
-                TaskDialog.Show("123", "1");
+               
                 Parameter oCool = (Parameter)oCoolingLoadList[index];
                 Parameter oHeat = (Parameter)oHeatingLoadList[index];
                 Parameter oRoom = (Parameter)oRoomName[index];
-                TaskDialog.Show("123", "2");
+                
                 results.Cells[i, 1] = oRoom.AsValueString().ToString();
                 results.Cells[i, 2] = oHeat.AsValueString().ToString();
                 results.Cells[i, 3] = oCool.AsValueString().ToString();
